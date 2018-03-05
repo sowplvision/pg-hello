@@ -23,10 +23,10 @@ function deviceInfo() {
 
 function userInfo() {
 	user = 'Daniel Kucharczyk \n' +
-			'sowplvison@gmail.com' +
-			'https://github.com/sowplvision' +
-			'KrDUIs1012' +
-			'Informatyka Stosowana' ;
+			'sowplvison@gmail.com \n' +
+			'https://github.com/sowplvision \n' +
+			'KrDUIs1012 \n' +
+			'Informatyka Stosowana \n' ;
 			
 	navigator.notification.alert(user);
 }
