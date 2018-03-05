@@ -20,3 +20,13 @@ function deviceInfo() {
 	navigator.notification.alert(info);
 	
 }
+
+function userInfo() {
+	user = 'Daniel Kucharczyk \n' +
+			'sowplvison@gmail.com' +
+			'https://github.com/sowplvision' +
+			'KrDUIs1012' +
+			'Informatyka Stosowana' ;
+			
+	navigator.notification.alert(user);
+}
