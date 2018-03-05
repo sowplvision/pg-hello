@@ -2,13 +2,25 @@
 <html>
 	<head>
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<script src="js/pgb.js"></script>
 		<script src="cordova.js"></script>
 	</head>
 	<body onload="init()">
 		<h1>Hello World!</h1>
 		<p id="dp"></p>
-		<input type="button" onclick="deviceInfo()" value="Let me introduce myself!">
-		<input type="button" onclick="userInfo()" value="A little about creator!">
+		<div class = 'basic'>
+			<input type="button" onclick="deviceInfo()" value="Let me introduce myself!">
+		</div>
+		<div class = 'improved'>
+			<input type="button" onclick="userInfo()" value="A little about creator!">
+		</div>
+		<div class = 'businesscard'>
+			<p id = 'student'>Daniel Kucharczyk</p>
+			<p id = 'email'>sowplvision@gmail.com</p>
+			<p id = 'website'>https://github.com/sowplvision</p>
+			<p id = 'group'>KrDUIs1012</p>
+			<p id = 'fieldofstudy'>Informatyka Stosowana</p>
+		</div>
 	</body>
 </html>

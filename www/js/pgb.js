@@ -23,10 +23,8 @@ function deviceInfo() {
 
 function userInfo() {
 	user = 'Daniel Kucharczyk \n' +
-			'sowplvison@gmail.com \n' +
-			'https://github.com/sowplvision \n' +
-			'KrDUIs1012 \n' +
-			'Informatyka Stosowana \n' ;
+			'Uniwersytet Ekonomiczny w Krakowie \n' +
+			'187086 \n' ;
 			
 	navigator.notification.alert(user);
 }
